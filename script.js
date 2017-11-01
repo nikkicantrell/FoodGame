@@ -6,12 +6,14 @@ if(id != null) {
         date = new Date();
         startDate = date.getTime();
         var food = document.getElementById("food");
-        food.innerHTML = '<input type="image" src="images/cheetos-puffs.png" width="276"' +
-        'height="400" alt="Cheetos Puffs" onclick="chose()" title="Cheetos"/>'
-        food.innerHTML += '<input type="image" src="images/cookies.jpg" width="400"' +
-        'height="400" alt="Cookies" onclick="chose()" title="Cookies"/>'
-        food.innerHTML += '<input type="image" src="images/spk.jpeg" width="440"' +
-        'height="400" alt="Sour Patch" onclick="chose()" title="Sour Patch"/>'
+        food.innerHTML = '<input type="image" src="images/lays-classic.png" width="276"' +
+        'height="400" alt="Cheetos Puffs" onclick="chose()" title="classic"/>'
+        food.innerHTML += '<input type="image" src="images/lays-sour-cream-onion.png" width="276"' +
+        'height="400" alt="Cookies" onclick="chose()" title="sourcream"/>'
+        food.innerHTML += '<input type="image" src="images/lays-salt-and-vinegar.jpg" width="308"' +
+        'height="400" alt="Sour Patch" onclick="chose()" title="saltvinegar"/>'
+        food.innerHTML += '<input type="image" src="images/lays-barbecue.jpg" width="286"' +
+        'height="400" alt="Sour Patch" onclick="chose()" title="barbecue"/>'
     }
 }
 function chose() {
